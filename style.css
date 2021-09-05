@@ -344,9 +344,8 @@ footer {
  font-size: 1.5rem;
 }
 
-footer li {
- display: inline-block;
- word-wrap: break-word;
+#url {
+   font-size: 2rem;
 } 
 
 footer i {

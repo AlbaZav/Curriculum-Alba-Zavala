@@ -40,7 +40,7 @@ header p {
 
 main {
  grid-area: B;
- margin: 0 1rem 1rem 0;
+ margin: 0 1rem 2rem 0;
  padding-top: 1rem;
 }
 
@@ -123,14 +123,15 @@ main li, article li, footer li {
   }
 
 main li:first-child {
-     margin-bottom: 0rem;
+     margin-bottom: 0.5rem;
   }
 
 aside {
    grid-area: C;
    display: flex;
    flex-flow: column nowrap;
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
+   margin-left: 0;
 }
 
 aside section {
@@ -281,6 +282,7 @@ header p {
 main {
  display: block; /*block*/
  order: 1;
+ margin-right :0  ;
  margin-bottom: 2rem;
 }
 
@@ -367,7 +369,7 @@ footer i {
 @media print {
  @page { 
   size: 8.5in 11in;
-  margin: 40pt;
+  margin: 15pt 40pt 20pt 40pt;
   @top-right {
   content: "page " counter(page) " of " counter(pages);
   }
